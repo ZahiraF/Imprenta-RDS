@@ -61,4 +61,5 @@ nav>ul>li>a {
     height: 100%;
     display: flex;
     align-items: center;
+    padding: 15px;
 }
