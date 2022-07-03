@@ -49,3 +49,8 @@ nav>ul {
     height: 100%;
     display: flex;
 }
+
+nav>ul>li {
+    height: 100%;
+    list-style: none;
+}
