@@ -79,4 +79,5 @@ nav>ul>li>ul {
     display: flex;
     flex-direction: column;
     background: dodgerblue;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
