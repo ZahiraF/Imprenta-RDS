@@ -89,7 +89,7 @@ nav>ul>li>ul {
     z-index: 10;
 }
 
-nav>ul>li>ul :hover {
+nav>ul>li:hover>ul {
     visibility: visible;
     opacity: 1;
 }
