@@ -91,4 +91,5 @@ nav>ul>li>ul {
 
 nav>ul>li>ul :hover {
     visibility: visible;
+    opacity: 1;
 }
