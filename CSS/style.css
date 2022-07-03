@@ -99,4 +99,5 @@ nav>ul>li:hover>ul {
 nav>ul>li>ul>li>a {
     display: block;
     padding: 6px;
+    margin-left: 14px;
 }
