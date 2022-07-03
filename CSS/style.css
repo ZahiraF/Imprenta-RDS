@@ -64,3 +64,7 @@ nav>ul>li>a {
     padding: 15px;
     transition: all 300ms ease;
 }
+
+nav>ul>li>a:hover {
+    transform: scale(1.1);
+}
