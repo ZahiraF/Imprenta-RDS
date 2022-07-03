@@ -84,5 +84,6 @@ nav>ul>li>ul {
     left: -5px;
     padding: 14px 0px;
     visibility: hidden;
+    opacity: 0;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
