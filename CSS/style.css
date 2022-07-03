@@ -15,6 +15,13 @@ header {
     top: 0;
     left: 0;
     background: white;
+}
+
+
+/*SECCION DEL LOGO*/
+
+.logo {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
