@@ -62,4 +62,5 @@ nav>ul>li>a {
     display: flex;
     align-items: center;
     padding: 15px;
+    transition: all 300ms ease;
 }
