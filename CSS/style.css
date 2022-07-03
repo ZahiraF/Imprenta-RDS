@@ -76,4 +76,6 @@ nav>ul>li>a:hover {
 
 nav>ul>li>ul {
     width: 200px;
+    display: flex;
+    flex-direction: column;
 }
