@@ -106,4 +106,5 @@ nav>ul>li>ul>li>a {
 
 nav>ul>li>ul>li>a:hover {
     background: deeppink;
+    transform: scale(1.1);
 }
