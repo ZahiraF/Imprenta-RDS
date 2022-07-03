@@ -1,7 +1,18 @@
 * {
     margin: 0;
     padding: 0;
-    /*como calcular la medida de un elemento*/
+    /*como calcular la medida de un elemento: */
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/*HEADER*/
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: white;
 }
