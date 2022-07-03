@@ -61,6 +61,7 @@ nav>ul>li:first-child>a {
     background-size: 25px;
     background-repeat: no-repeat;
     background-position: center center;
+    padding: 20px 40px;
 }
 
 nav>ul>li:first-child:hover>a {
