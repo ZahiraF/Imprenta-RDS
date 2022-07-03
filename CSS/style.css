@@ -4,6 +4,7 @@
     /*como calcular la medida de un elemento: */
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
 }
 
 
