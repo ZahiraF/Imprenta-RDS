@@ -1,0 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*como calcular la medida de un elemento*/
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
