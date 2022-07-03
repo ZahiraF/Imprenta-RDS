@@ -15,4 +15,6 @@ header {
     top: 0;
     left: 0;
     background: white;
+    display: flex;
+    flex-direction: column;
 }
