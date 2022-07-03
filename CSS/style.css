@@ -99,7 +99,7 @@ nav>ul>li:hover>ul {
 nav>ul>li>ul>li>a {
     display: block;
     padding: 6px;
-    margin-left: 14px;
+    padding-left: 14px;
     margin-top: 10px;
     transition: all 300ms ease;
 }
