@@ -103,3 +103,7 @@ nav>ul>li>ul>li>a {
     margin-top: 10px;
     transition: all 300ms ease;
 }
+
+nav>ul>li>ul>li>a:hover {
+    background: deeppink;
+}
