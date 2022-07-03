@@ -27,10 +27,16 @@ header {
 }
 
 
-/*CONTENEDOR DEL MENU*/
+/*BARRA MENU*/
 
 .container-menu {
     width: 100%;
     height: 70px;
     background: dodgerblue;
+    padding: 0px, 20px;
+}
+
+.menu {
+    margin: auto;
+    height: 100%;
 }
