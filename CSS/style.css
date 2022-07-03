@@ -63,6 +63,13 @@ nav>ul>li:first-child>a {
     background-position: center center;
 }
 
+nav>ul>li:first-child:hover>a {
+    background-image: url(../Imagenes/casa.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
 nav>ul>li>a {
     width: 100%;
     height: 100%;
