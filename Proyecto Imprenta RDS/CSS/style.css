@@ -1,0 +1,38 @@
+.slider {
+    margin: auto;
+    width: 95%;
+    overflow: hidden;
+    
+}
+.slider ul {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300%;
+    animation: cambio 20s infinite alternate;
+}
+
+.slider li {
+    width: 100%;
+    list-style: none;
+}
+
+.slider img {
+    width: 80%;
+    height: 60%;
+}
+
+@keyframes cambio {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300;}
+    100% {margin-left: -300;}
+}
