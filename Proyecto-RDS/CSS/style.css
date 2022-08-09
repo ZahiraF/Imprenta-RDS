@@ -22,9 +22,12 @@ ul{
 
     background-color: white;
     padding: 300px 0;
-  
 }
-
+.footer-col {
+    width: 25%;
+    padding:015px ;
+    }
+    
 
 
 
