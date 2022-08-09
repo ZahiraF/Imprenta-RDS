@@ -50,8 +50,18 @@ ul{
  .footer-col ul li :not(:last-child){
     margin-bottom: 10px;
     
-    }
-                       
+}
+ footer-col ul li a{
+     font-size: 16px;
+     text-transform: capitalize;
+     color:red;
+     text-decoration:none;
+     font-weight: 300px;
+     color:black;
+     display: block ;
+     transition: all 0.3s ease;
+      }
+                 
 
 
 
