@@ -9,3 +9,8 @@
     background-color: dodgerblue;
     margin:auto;
 }
+.row{
+    display: flex;
+
+    
+}
