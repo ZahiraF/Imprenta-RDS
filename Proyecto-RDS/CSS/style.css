@@ -27,7 +27,15 @@ ul{
     width: 25%;
     padding:015px ;
     }
-    
+    .footer-col h4{
+        font-size: 20px;
+        color: black;
+        text-transform: capitalize;
+        margin-bottom: 30px;
+        font-weight: 500;
+        position: relative;
+        }
+            
 
 
 
