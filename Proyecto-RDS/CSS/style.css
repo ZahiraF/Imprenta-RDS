@@ -27,15 +27,27 @@ ul{
     width: 25%;
     padding:015px ;
     }
-    .footer-col h4{
-        font-size: 20px;
-        color: black;
-        text-transform: capitalize;
-        margin-bottom: 30px;
-        font-weight: 500;
-        position: relative;
-        }
-            
+.footer-col h4{
+ font-size: 20px;
+ color: black;
+ text-transform: capitalize;
+ margin-bottom: 30px;
+  font-weight: 500;
+  position: relative;
+    
+}
+.footer-col h4::before {
+
+    content: ' ';
+     position: absolute;
+     left: 0;
+     bottom:-10px;
+     background-color: deeppink;
+     height: 2px;
+     box-sizing: border-box ;
+     width: 50px;
+ }
+                       
 
 
 
