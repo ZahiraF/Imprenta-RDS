@@ -7,4 +7,5 @@
 .container{
     max-width:1170px;
     background-color: dodgerblue;
+    margin:auto;
 }
