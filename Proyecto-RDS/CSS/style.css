@@ -60,8 +60,13 @@ ul{
      color:black;
      display: block ;
      transition: all 0.3s ease;
-      }
-                 
+ }
+ .footer-col ul li a:hover{
+
+    color: rgb(255, 0, 0);
+    padding-left: 10px;
+    }
+                  
 
 
 
