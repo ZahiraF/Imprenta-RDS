@@ -119,6 +119,18 @@ nav>ul>li:hover>ul {
     top: 70px;
 }
 
+nav>ul>li>ul:before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 12px solid dodgerblue;
+    position: absolute;
+    top: -12px;
+    left: 20px;
+}
+
 nav>ul>li>ul>li>a {
     display: block;
     padding: 6px;
