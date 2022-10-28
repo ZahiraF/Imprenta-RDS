@@ -156,13 +156,14 @@ nav>ul>li>ul>li>a:hover {
     width: 26px;
     padding: 20px;
     height: 100%;
-    display: flex;
+    display: none;
     align-items: center;
 }
 
 #label__check {
     width: 26px;
     height: 100%;
+    display: none;
 }
 
 #check__menu {
