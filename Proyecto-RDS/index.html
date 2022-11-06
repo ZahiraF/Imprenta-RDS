@@ -9,6 +9,9 @@
     <script src="https://kit.fontawesome.com/0fc94650e3.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
 
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="JS/script.js"></script>
+
 </head>
 
 <body>
@@ -23,12 +26,12 @@
                     <i class="fa-solid fa-bars icon__menu"></i>
                 </label>
                 <nav>
-                    <ul>
+                    <ul class="tabs">
                         <li>
-                            <a href="#" id="selected"></a>
+                            <a href="#home" id="selected"></a>
                         </li>
                         <li>
-                            <a href="#">PRODUCTOS</a>
+                            <a href="#productos">PRODUCTOS</a>
                             <ul>
                                 <li>
                                     <a href="#">Carpetas de presentación</a></li>
@@ -57,7 +60,7 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="#">SERVICIOS</a>
+                            <a href="#servicios">SERVICIOS</a>
                             <ul>
                                 <li>
                                     <a href="#">Diseño Gráfico</a></li>
@@ -70,7 +73,7 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="contacto.html">CONTACTO</a>
+                            <a href="#contacto">CONTACTO</a>
                         </li>
                     </ul>
                 </nav>
@@ -78,21 +81,27 @@
         </div>
     </header>
 
-    <div class="parent">
-        <div class="novedades">
-
+    <main>
+        <div class="secciones">
+            <div id="home">
+                <h1>(carrusel)</h1>
+                <h1>(galeria de imagenes)</h1>
+                <h1>(consultas)</h1>
+                <h1>(horarios)</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pellentesque sed erat vehicula fermentum. Nunc mattis ut dui eget hendrerit. Etiam eget libero at velit ultrices interdum vel sit amet neque. Aliquam mollis felis turpis,
+                    at venenatis mi feugiat vel. Aliquam erat volutpat. Mauris in urna aliquam, rhoncus lectus vitae.</p>
+            </div>
+            <div id="productos">
+                <h1>productos acá</h1>
+            </div>
+            <div id="servicios">
+                <h1>servicios</h1>
+            </div>
+            <div id="contacto">
+                <h1>contacto</h1>
+            </div>
         </div>
-        <div class="trabajos">
-            <div class="galeria"></div>
-        </div>
-        <div class="consultas">
-            <div class="cotizacion"></div>
-        </div>
-        <div class="horarios">
-            <div class="mapa"></div>
-        </div>
-
-    </div>
+    </main>
     <footer>
 
     </footer>
