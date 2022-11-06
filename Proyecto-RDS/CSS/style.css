@@ -12,7 +12,7 @@
 
 header {
     width: 100%;
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     background: white;
@@ -216,4 +216,48 @@ nav>ul>li>ul>li>a:hover {
         visibility: visible;
         opacity: 1;
     }
+}
+
+
+/*main*/
+
+main {
+    max-width: 95%;
+    margin: 20px auto;
+}
+
+
+/*seccion home*/
+
+#home {
+    position: relative;
+    background-color: rgb(235, 235, 235);
+    padding: 10px;
+}
+
+
+/*seccion productos*/
+
+#productos {
+    position: relative;
+    background-color: bisque;
+    padding: 10px;
+}
+
+
+/*seccion servicios*/
+
+#servicios {
+    position: relative;
+    background-color: bisque;
+    padding: 10px;
+}
+
+
+/*seccion contacto*/
+
+#contacto {
+    position: relative;
+    background-color: bisque;
+    padding: 10px;
 }
